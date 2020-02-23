@@ -7,7 +7,7 @@
 
 <?php
 
-$conn_ro = new mysqli($servername, $ro_username, $ro_password,$dbname);
+$conn = new mysqli($servername, $ro_username, $ro_password,$dbname);
 
 // Check connection
 if ($conn->connect_error) {
